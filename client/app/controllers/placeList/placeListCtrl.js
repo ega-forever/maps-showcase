@@ -8,7 +8,7 @@ angular.module('places', [])
 
             $http({
                 method: 'GET',
-                url: 'http://localhost:9000/get-yelp',
+                url: '/get-yelp',
                 params: {lat: a.lat, lng: a.lng}
             }).then(function successCallback(response) {
                 console.log(response.data);
