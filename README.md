@@ -12,3 +12,7 @@ The second one command will create a dev build inside a server/public dir.
 
 5)to run tests on frontend follow /tests/. For backend(server) you need global jasmine installed via npm.
 To run tests, under dir server/tests dir run "jasmine"
+
+# how does it work?
+
+It's simple, when you click on a map, a remote call to yelp fetch the nearest places to eat and displays it.
